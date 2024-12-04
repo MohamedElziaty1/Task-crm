@@ -12,6 +12,7 @@
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=Nunito" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-FBOVS5ACvEG+KlApUKdgmVvUENlq6nTmcj8jfUt7Au8ft+d5jUdfD10wi1tzNEGe" crossorigin="anonymous">
 
     <!-- Scripts -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
@@ -76,5 +77,7 @@
             @yield('content')
         </main>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-pI65vTAlh3xNfq5XgPoac+BN7dTS8fdl+8VRUib8VJfjzKIRXzAegMntVdoe5xRH" crossorigin="anonymous"></script>
+
 </body>
 </html>
